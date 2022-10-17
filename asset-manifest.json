@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/affiliateindians/static/css/main.404864d0.css",
+    "main.css": "/affiliateindians/static/css/main.81956246.css",
     "main.js": "/affiliateindians/static/js/main.a77069da.js",
     "index.html": "/affiliateindians/index.html",
-    "main.404864d0.css.map": "/affiliateindians/static/css/main.404864d0.css.map",
+    "main.81956246.css.map": "/affiliateindians/static/css/main.81956246.css.map",
     "main.a77069da.js.map": "/affiliateindians/static/js/main.a77069da.js.map"
   },
   "entrypoints": [
-    "static/css/main.404864d0.css",
+    "static/css/main.81956246.css",
     "static/js/main.a77069da.js"
   ]
 }
