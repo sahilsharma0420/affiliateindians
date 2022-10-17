@@ -33,6 +33,7 @@ function Home() {
   };
   return (
     <>
+
       <nav className={ham ? "main-nav1" : "main-nav"}>
         {/* 1st logo part  */}
         <div className="logo">
