@@ -154,7 +154,7 @@ function Stream() {
                 <div>
                   <div className="home-left">
                     <div className="start">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ marginRight: "10px" }} /> Start Here
                       </NavLink>
                     </div>
@@ -230,7 +230,7 @@ function Stream() {
                 <div>
                   <div className="home-left1">
                     <div className="start1">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ fontSize: "25px" }} />
                       </NavLink>
                     </div>
@@ -294,7 +294,7 @@ function Stream() {
                 <div>
                   <div className="home-left1">
                     <div className="start1">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ fontSize: "25px" }} />
                       </NavLink>
                     </div>
@@ -354,7 +354,7 @@ function Stream() {
                 <div>
                   <div className="home-left">
                     <div className="start">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ marginRight: "10px" }} /> Start Here
                       </NavLink>
                     </div>
@@ -433,7 +433,7 @@ function Stream() {
         {ham && (
           <div className="home-left2">
             <div className="start">
-              <NavLink to="/">
+              <NavLink to="/affiliateindians">
                 <WebIcon style={{ marginRight: "10px" }} /> Start Here
               </NavLink>
             </div>

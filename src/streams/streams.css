@@ -76,6 +76,7 @@ padding-left: 10%;
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-direction: row;
 }
 .stream1 a,.traffic1 a,.commisions1 a,.leader1 a,.rank1 a,.reports1 a,.members1 a,.leads1 a,.links1 a,.wallet1 a,.start1 a{
     color: #fff;
@@ -92,20 +93,7 @@ padding-left: 10%;
     .stream1 a:hover,.traffic1 a:hover,.commisions1 a:hover,.leader1 a:hover,.rank1 a:hover,.reports1 a:hover,.members1 a:hover,.leads1 a:hover,.links1 a:hover,.wallet1 a:hover,.start1 a:hover,.stream1 a:hover,.traffic1 a:hover,.commisions1 a:hover,.leader1 a:hover,.rank1 a:hover,.reports1 a:hover,.members1 a:hover,.leads1 a:hover,.links1 a:hover,.wallet1 a:hover,.start1 a:hover{
         color: #DCB52C;
     
-    }
-    .home-left1 .start1:hover{
-     color: #fff;
-     background-color: rgb(60, 69, 86);
-     width: cal(190+70) !important;
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
-    
-     
-    }
-    .start1{
-        margin-top: 55%;
-      
+
     }
     .header-heading{
    color: #000;

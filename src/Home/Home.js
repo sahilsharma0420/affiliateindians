@@ -154,7 +154,7 @@ function Home() {
                 <div>
                   <div className="home-left">
                     <div className="start">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ marginRight: "10px" }} /> Start Here
                       </NavLink>
                     </div>
@@ -230,7 +230,7 @@ function Home() {
                 <div>
                   <div className="home-left1">
                     <div className="start1">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ fontSize: "25px" }} />
                       </NavLink>
                     </div>
@@ -292,69 +292,69 @@ function Home() {
             <div>
               {matches ? (
                 <div>
-                <div className="home-left1">
-                <div className="start1">
-                  <NavLink to="/">
-                    <WebIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="wallet1">
-                  <NavLink to="/ewallet">
-                    <FolderOpenIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="links1">
-                  <NavLink to="/affiliate">
-                    <PeopleOutlineIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="leads1">
-                  <NavLink to="/lead">
-                    <FormatListBulletedIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="members1">
-                  <NavLink to="/members">
-                    <PeopleOutlineIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="reports1">
-                  <NavLink to="/reports">
-                    <ArticleOutlinedIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="rank1">
-                  <NavLink to="/rank">
-                    <ShowChartOutlinedIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="leader1">
-                  <NavLink to="/leaderboard">
-                    <FormatListBulletedIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="commisions1">
-                  <NavLink to="/commisions">
-                    <DiamondOutlinedIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="stream1">
-                  <NavLink to="/stream">
-                    <RampRightIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-                <div className="traffic1">
-                  <NavLink to="traffic">
-                    <DragHandleIcon style={{ fontSize: "25px" }} />
-                  </NavLink>
-                </div>
-              </div>
+                  <div className="home-left1">
+                    <div className="start1">
+                      <NavLink to="/affiliateindians">
+                        <WebIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="wallet1">
+                      <NavLink to="/ewallet">
+                        <FolderOpenIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="links1">
+                      <NavLink to="/affiliate">
+                        <PeopleOutlineIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="leads1">
+                      <NavLink to="/lead">
+                        <FormatListBulletedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="members1">
+                      <NavLink to="/members">
+                        <PeopleOutlineIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="reports1">
+                      <NavLink to="/reports">
+                        <ArticleOutlinedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="rank1">
+                      <NavLink to="/rank">
+                        <ShowChartOutlinedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="leader1">
+                      <NavLink to="/leaderboard">
+                        <FormatListBulletedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="commisions1">
+                      <NavLink to="/commisions">
+                        <DiamondOutlinedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="stream1">
+                      <NavLink to="/stream">
+                        <RampRightIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="traffic1">
+                      <NavLink to="traffic">
+                        <DragHandleIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                  </div>
                 </div>
               ) : (
                 <div>
-                <div className="home-left">
+                  <div className="home-left">
                     <div className="start">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ marginRight: "10px" }} /> Start Here
                       </NavLink>
                     </div>
@@ -433,7 +433,7 @@ function Home() {
         {ham && (
           <div className="home-left2">
             <div className="start">
-              <NavLink to="/">
+              <NavLink to="/affiliateindians">
                 <WebIcon style={{ marginRight: "10px" }} /> Start Here
               </NavLink>
             </div>

@@ -155,7 +155,7 @@ function Rank() {
                 <div>
                   <div className="home-left">
                     <div className="start">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ marginRight: "10px" }} /> Start Here
                       </NavLink>
                     </div>
@@ -231,7 +231,7 @@ function Rank() {
                 <div>
                   <div className="home-left1">
                     <div className="start1">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ fontSize: "25px" }} />
                       </NavLink>
                     </div>
@@ -295,7 +295,7 @@ function Rank() {
                 <div>
                   <div className="home-left1">
                     <div className="start1">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ fontSize: "25px" }} />
                       </NavLink>
                     </div>
@@ -355,7 +355,7 @@ function Rank() {
                 <div>
                   <div className="home-left">
                     <div className="start">
-                      <NavLink to="/">
+                      <NavLink to="/affiliateindians">
                         <WebIcon style={{ marginRight: "10px" }} /> Start Here
                       </NavLink>
                     </div>
@@ -434,7 +434,7 @@ function Rank() {
         {ham && (
           <div className="home-left2">
             <div className="start">
-              <NavLink to="/">
+              <NavLink to="/affiliateindians">
                 <WebIcon style={{ marginRight: "10px" }} /> Start Here
               </NavLink>
             </div>
@@ -557,99 +557,102 @@ function Rank() {
                   <div className="right-block1-part2"></div>
                 </div>
                 <div className="rank-right-block2-container">
-                <div className="rank-right-block2-container-inner">
-                  <HelpRoundedIcon
-                    style={{ fontSize: "22px" }}
-                    className="ques"
-                  />
-                  Click For Rank Definitions
-                </div>
-              </div>
-              <div className="rank-right-block2-container1">
-                <div className="rank-right-block2-container1-inner1">
-                  <div className="rank-right-block2-container1-inner1-body1">
-                    The Next Rank is
-                  </div>
-                  <div className="rank-right-block2-container1-inner1-body2">
-                    You are Missing
-                  </div>
-                  <div className="rank-right-block2-container1-inner1-body3">
-                    Current Earned Commision
+                  <div className="rank-right-block2-container-inner">
+                    <HelpRoundedIcon
+                      style={{ fontSize: "22px" }}
+                      className="ques"
+                    />
+                    Click For Rank Definitions
                   </div>
                 </div>
-                <div className="rank-right-block2-container1-inner2">
-                  <div className="rank-right-block2-container1-inner2-body1">
-                    SILVER[₹ 10000]
-                  </div>
-                  <div className="rank-right-block2-container1-inner2-body2">
-                  ₹ 3000.4
-                  </div>
-                  <div className="rank-right-block2-container1-inner2-body3">
-                  ₹ 999.6
-                  </div>
-                </div>
-              </div>
-              <div className="rank-right-block2-container2">
-                <div className="rank-right-block2">
-                  <div className="rank-right-block2-header-main">
-                    Rank History
-                  </div>
-                  <div className="rank-right-block2-header">
-                    <div className="rank-right-block2-header1">Date</div>
-                    <div className="rank-right-block2-header2">
-                      Amount Reached
+                <div className="rank-right-block2-container1">
+                  <div className="rank-right-block2-container1-inner1">
+                    <div className="rank-right-block2-container1-inner1-body1">
+                      The Next Rank is
                     </div>
-                    <div className="rank-right-block2-header3">Rank Name</div>
-                  </div>
-                  <div className="rank-right-block2-body1">
-                    <div className="rank-right-block2-body1-part1">
-                      26/08/2020
+                    <div className="rank-right-block2-container1-inner1-body2">
+                      You are Missing
                     </div>
-                    <div className="rank-right-block2-body1-part2"> ₹ 999.6</div>
-                    <div className="rank-right-block2-body1-part3">
-                      AFFILIATE
+                    <div className="rank-right-block2-container1-inner1-body3">
+                      Current Earned Commision
+                    </div>
+                  </div>
+                  <div className="rank-right-block2-container1-inner2">
+                    <div className="rank-right-block2-container1-inner2-body1">
+                      SILVER[₹ 10000]
+                    </div>
+                    <div className="rank-right-block2-container1-inner2-body2">
+                      ₹ 3000.4
+                    </div>
+                    <div className="rank-right-block2-container1-inner2-body3">
+                      ₹ 999.6
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="rank-right-block2-container3">
-                <div className="rank-right-block3-header-main">
-                  Meet Our Diamond Affiliate's
-                </div>
-                <div className="rank-right-block2-container3-inner">
-                  <div className="rank-right-block2-container3-innerleft">
-                    <div className="rank-right-block2-container3-innerleft-inner">
-                      <img
-                        className="affiliateimage"
-                        src="https://affiliateindians.com/ai/assets/gravatars/174871411589866213IMG-20200429-WA0001.jpg"
-                        alt="not found"
-                      />
-                      <p>Prakhar Kulshrestha</p>
-                      <center>
-                        <p>[The CEO & FOUNDER Of Affiliate Indians]</p>
-                      </center>
+                <div className="rank-right-block2-container2">
+                  <div className="rank-right-block2">
+                    <div className="rank-right-block2-header-main">
+                      Rank History
+                    </div>
+                    <div className="rank-right-block2-header">
+                      <div className="rank-right-block2-header1">Date</div>
+                      <div className="rank-right-block2-header2">
+                        Amount Reached
+                      </div>
+                      <div className="rank-right-block2-header3">Rank Name</div>
+                    </div>
+                    <div className="rank-right-block2-body1">
+                      <div className="rank-right-block2-body1-part1">
+                        26/08/2020
+                      </div>
+                      <div className="rank-right-block2-body1-part2">
+                        {" "}
+                        ₹ 999.6
+                      </div>
+                      <div className="rank-right-block2-body1-part3">
+                        AFFILIATE
+                      </div>
                     </div>
                   </div>
-                  >
-                  <div className="rank-right-block2-container3-innerright"></div>
                 </div>
-              </div>
-              <div className="rank-right-block2-container4">
-                <div className="rank-right-block2-container4-header">
-                  Meet Our Platinium Affiliate's
+                <div className="rank-right-block2-container3">
+                  <div className="rank-right-block3-header-main">
+                    Meet Our Diamond Affiliate's
+                  </div>
+                  <div className="rank-right-block2-container3-inner">
+                    <div className="rank-right-block2-container3-innerleft">
+                      <div className="rank-right-block2-container3-innerleft-inner">
+                        <img
+                          className="affiliateimage"
+                          src="https://affiliateindians.com/ai/assets/gravatars/174871411589866213IMG-20200429-WA0001.jpg"
+                          alt="not found"
+                        />
+                        <p>Prakhar Kulshrestha</p>
+                        <center>
+                          <p>[The CEO & FOUNDER Of Affiliate Indians]</p>
+                        </center>
+                      </div>
+                    </div>
+                    >
+                    <div className="rank-right-block2-container3-innerright"></div>
+                  </div>
                 </div>
-                <div className="rank-right-block2-container4-body">
-                  No Data Available
+                <div className="rank-right-block2-container4">
+                  <div className="rank-right-block2-container4-header">
+                    Meet Our Platinium Affiliate's
+                  </div>
+                  <div className="rank-right-block2-container4-body">
+                    No Data Available
+                  </div>
                 </div>
-              </div>
-              <div className="rank-right-block2-container5">
-                <div className="rank-right-block2-container4-header">
-                  Meet Our Gold Affiliate's
+                <div className="rank-right-block2-container5">
+                  <div className="rank-right-block2-container4-header">
+                    Meet Our Gold Affiliate's
+                  </div>
+                  <div className="rank-right-block2-container4-body">
+                    No Data Available
+                  </div>
                 </div>
-                <div className="rank-right-block2-container4-body">
-                  No Data Available
-                </div>
-              </div>
               </div>
               <div className="copyright">2020 © copyright</div>
             </div>
@@ -734,7 +737,7 @@ function Rank() {
                       3000.4
                     </div>
                     <div className="rank-right-block2-container1-inner2-body3">
-                    ₹ 999.6
+                      ₹ 999.6
                     </div>
                   </div>
                 </div>
@@ -754,7 +757,9 @@ function Rank() {
                       <div className="rank-right-block2-body1-part1">
                         26/08/2020
                       </div>
-                      <div className="rank-right-block2-body1-part2">₹ 999.6</div>
+                      <div className="rank-right-block2-body1-part2">
+                        ₹ 999.6
+                      </div>
                       <div className="rank-right-block2-body1-part3">
                         AFFILIATE
                       </div>

@@ -147,353 +147,353 @@ function Traffic() {
       <div className="home">
         {/* sidebar */}
         <div className="sidebar-container">
-        {ham ? (
-          <div>
-            {matches ? (
-              <div>
-                <div className="home-left">
-                  <div className="start">
-                    <NavLink to="/">
-                      <WebIcon style={{ marginRight: "10px" }} /> Start Here
-                    </NavLink>
-                  </div>
-                  <div className="wallet">
-                    <NavLink to="/ewallet">
-                      <FolderOpenIcon style={{ marginRight: "10px" }} />{" "}
-                      eWallet
-                    </NavLink>
-                  </div>
-                  <div className="links">
-                    <NavLink to="/affiliate">
-                      <PeopleOutlineIcon style={{ marginRight: "10px" }} />{" "}
-                      Affiliate Links
-                    </NavLink>
-                  </div>
-                  <div className="leads">
-                    <NavLink to="/lead">
-                      <FormatListBulletedIcon
-                        style={{ marginRight: "10px" }}
-                      />
-                      Leads
-                    </NavLink>
-                  </div>
-                  <div className="members">
-                    <NavLink to="/members">
-                      <PeopleOutlineIcon style={{ marginRight: "10px" }} />{" "}
-                      Members
-                    </NavLink>
-                  </div>
-                  <div className="reports">
-                    <NavLink to="/reports">
-                      <ArticleOutlinedIcon style={{ marginRight: "10px" }} />{" "}
-                      Reports
-                    </NavLink>
-                  </div>
-                  <div className="rank">
-                    <NavLink to="/rank">
-                      <ShowChartOutlinedIcon
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Rank
-                    </NavLink>
-                  </div>
-                  <div className="leader">
-                    <NavLink to="/leaderboard">
-                      <FormatListBulletedIcon
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      LeaderBoard
-                    </NavLink>
-                  </div>
-                  <div className="commisions">
-                    <NavLink to="/commisions">
-                      <DiamondOutlinedIcon style={{ marginRight: "10px" }} />{" "}
-                      Commissions
-                    </NavLink>
-                  </div>
-                  <div className="stream">
-                    <NavLink to="/stream">
-                      <RampRightIcon style={{ marginRight: "10px" }} /> [PRO]
-                      Streams of Income
-                    </NavLink>
-                  </div>
-                  <div className="traffic">
-                    <NavLink to="/traffic">
-                      <DragHandleIcon style={{ marginRight: "10px" }} /> [PRO]
-                      Get Traffic
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            ) : (
-              <div>
-                <div className="home-left1">
-                  <div className="start1">
-                    <NavLink to="/">
-                      <WebIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="wallet1">
-                    <NavLink to="/ewallet">
-                      <FolderOpenIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="links1">
-                    <NavLink to="/affiliate">
-                      <PeopleOutlineIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="leads1">
-                    <NavLink to="/lead">
-                      <FormatListBulletedIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="members1">
-                    <NavLink to="/members">
-                      <PeopleOutlineIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="reports1">
-                    <NavLink to="/reports">
-                      <ArticleOutlinedIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="rank1">
-                    <NavLink to="/rank">
-                      <ShowChartOutlinedIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="leader1">
-                    <NavLink to="/leaderboard">
-                      <FormatListBulletedIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="commisions1">
-                    <NavLink to="/commisions">
-                      <DiamondOutlinedIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="stream1">
-                    <NavLink to="/stream">
-                      <RampRightIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
-                  </div>
-                  <div className="traffic1">
-                    <NavLink to="traffic">
-                      <DragHandleIcon style={{ fontSize: "25px" }} />
-                    </NavLink>
+          {ham ? (
+            <div>
+              {matches ? (
+                <div>
+                  <div className="home-left">
+                    <div className="start">
+                      <NavLink to="/affiliateindians">
+                        <WebIcon style={{ marginRight: "10px" }} /> Start Here
+                      </NavLink>
+                    </div>
+                    <div className="wallet">
+                      <NavLink to="/ewallet">
+                        <FolderOpenIcon style={{ marginRight: "10px" }} />{" "}
+                        eWallet
+                      </NavLink>
+                    </div>
+                    <div className="links">
+                      <NavLink to="/affiliate">
+                        <PeopleOutlineIcon style={{ marginRight: "10px" }} />{" "}
+                        Affiliate Links
+                      </NavLink>
+                    </div>
+                    <div className="leads">
+                      <NavLink to="/lead">
+                        <FormatListBulletedIcon
+                          style={{ marginRight: "10px" }}
+                        />
+                        Leads
+                      </NavLink>
+                    </div>
+                    <div className="members">
+                      <NavLink to="/members">
+                        <PeopleOutlineIcon style={{ marginRight: "10px" }} />{" "}
+                        Members
+                      </NavLink>
+                    </div>
+                    <div className="reports">
+                      <NavLink to="/reports">
+                        <ArticleOutlinedIcon style={{ marginRight: "10px" }} />{" "}
+                        Reports
+                      </NavLink>
+                    </div>
+                    <div className="rank">
+                      <NavLink to="/rank">
+                        <ShowChartOutlinedIcon
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Rank
+                      </NavLink>
+                    </div>
+                    <div className="leader">
+                      <NavLink to="/leaderboard">
+                        <FormatListBulletedIcon
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        LeaderBoard
+                      </NavLink>
+                    </div>
+                    <div className="commisions">
+                      <NavLink to="/commisions">
+                        <DiamondOutlinedIcon style={{ marginRight: "10px" }} />{" "}
+                        Commissions
+                      </NavLink>
+                    </div>
+                    <div className="stream">
+                      <NavLink to="/stream">
+                        <RampRightIcon style={{ marginRight: "10px" }} /> [PRO]
+                        Streams of Income
+                      </NavLink>
+                    </div>
+                    <div className="traffic">
+                      <NavLink to="/traffic">
+                        <DragHandleIcon style={{ marginRight: "10px" }} /> [PRO]
+                        Get Traffic
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
-              </div>
-            )}
-          </div>
-        ) : (
-          <div>
-            {matches ? (
-              <div>
-              <div className="home-left1">
-              <div className="start1">
-                <NavLink to="/">
-                  <WebIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="wallet1">
-                <NavLink to="/ewallet">
-                  <FolderOpenIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="links1">
-                <NavLink to="/affiliate">
-                  <PeopleOutlineIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="leads1">
-                <NavLink to="/lead">
-                  <FormatListBulletedIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="members1">
-                <NavLink to="/members">
-                  <PeopleOutlineIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="reports1">
-                <NavLink to="/reports">
-                  <ArticleOutlinedIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="rank1">
-                <NavLink to="/rank">
-                  <ShowChartOutlinedIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="leader1">
-                <NavLink to="/leaderboard">
-                  <FormatListBulletedIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="commisions1">
-                <NavLink to="/commisions">
-                  <DiamondOutlinedIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="stream1">
-                <NavLink to="/stream">
-                  <RampRightIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
-              <div className="traffic1">
-                <NavLink to="traffic">
-                  <DragHandleIcon style={{ fontSize: "25px" }} />
-                </NavLink>
-              </div>
+              ) : (
+                <div>
+                  <div className="home-left1">
+                    <div className="start1">
+                      <NavLink to="/affiliateindians">
+                        <WebIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="wallet1">
+                      <NavLink to="/ewallet">
+                        <FolderOpenIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="links1">
+                      <NavLink to="/affiliate">
+                        <PeopleOutlineIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="leads1">
+                      <NavLink to="/lead">
+                        <FormatListBulletedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="members1">
+                      <NavLink to="/members">
+                        <PeopleOutlineIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="reports1">
+                      <NavLink to="/reports">
+                        <ArticleOutlinedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="rank1">
+                      <NavLink to="/rank">
+                        <ShowChartOutlinedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="leader1">
+                      <NavLink to="/leaderboard">
+                        <FormatListBulletedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="commisions1">
+                      <NavLink to="/commisions">
+                        <DiamondOutlinedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="stream1">
+                      <NavLink to="/stream">
+                        <RampRightIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="traffic1">
+                      <NavLink to="traffic">
+                        <DragHandleIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
-              </div>
-            ) : (
-              <div>
-              <div className="home-left">
-                  <div className="start">
-                    <NavLink to="/">
-                      <WebIcon style={{ marginRight: "10px" }} /> Start Here
-                    </NavLink>
-                  </div>
-                  <div className="wallet">
-                    <NavLink to="/ewallet">
-                      <FolderOpenIcon style={{ marginRight: "10px" }} />{" "}
-                      eWallet
-                    </NavLink>
-                  </div>
-                  <div className="links">
-                    <NavLink to="/affiliate">
-                      <PeopleOutlineIcon style={{ marginRight: "10px" }} />{" "}
-                      Affiliate Links
-                    </NavLink>
-                  </div>
-                  <div className="leads">
-                    <NavLink to="/lead">
-                      <FormatListBulletedIcon
-                        style={{ marginRight: "10px" }}
-                      />
-                      Leads
-                    </NavLink>
-                  </div>
-                  <div className="members">
-                    <NavLink to="/members">
-                      <PeopleOutlineIcon style={{ marginRight: "10px" }} />{" "}
-                      Members
-                    </NavLink>
-                  </div>
-                  <div className="reports">
-                    <NavLink to="/reports">
-                      <ArticleOutlinedIcon style={{ marginRight: "10px" }} />{" "}
-                      Reports
-                    </NavLink>
-                  </div>
-                  <div className="rank">
-                    <NavLink to="/rank">
-                      <ShowChartOutlinedIcon
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Rank
-                    </NavLink>
-                  </div>
-                  <div className="leader">
-                    <NavLink to="/leaderboard">
-                      <FormatListBulletedIcon
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      LeaderBoard
-                    </NavLink>
-                  </div>
-                  <div className="commisions">
-                    <NavLink to="/commisions">
-                      <DiamondOutlinedIcon style={{ marginRight: "10px" }} />{" "}
-                      Commissions
-                    </NavLink>
-                  </div>
-                  <div className="stream">
-                    <NavLink to="/stream">
-                      <RampRightIcon style={{ marginRight: "10px" }} /> [PRO]
-                      Streams of Income
-                    </NavLink>
-                  </div>
-                  <div className="traffic">
-                    <NavLink to="/traffic">
-                      <DragHandleIcon style={{ marginRight: "10px" }} /> [PRO]
-                      Get Traffic
-                    </NavLink>
+          ) : (
+            <div>
+              {matches ? (
+                <div>
+                  <div className="home-left1">
+                    <div className="start1">
+                      <NavLink to="/affiliateindians">
+                        <WebIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="wallet1">
+                      <NavLink to="/ewallet">
+                        <FolderOpenIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="links1">
+                      <NavLink to="/affiliate">
+                        <PeopleOutlineIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="leads1">
+                      <NavLink to="/lead">
+                        <FormatListBulletedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="members1">
+                      <NavLink to="/members">
+                        <PeopleOutlineIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="reports1">
+                      <NavLink to="/reports">
+                        <ArticleOutlinedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="rank1">
+                      <NavLink to="/rank">
+                        <ShowChartOutlinedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="leader1">
+                      <NavLink to="/leaderboard">
+                        <FormatListBulletedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="commisions1">
+                      <NavLink to="/commisions">
+                        <DiamondOutlinedIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="stream1">
+                      <NavLink to="/stream">
+                        <RampRightIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
+                    <div className="traffic1">
+                      <NavLink to="traffic">
+                        <DragHandleIcon style={{ fontSize: "25px" }} />
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
-              </div>
-            )}
+              ) : (
+                <div>
+                  <div className="home-left">
+                    <div className="start">
+                      <NavLink to="/affiliateindians">
+                        <WebIcon style={{ marginRight: "10px" }} /> Start Here
+                      </NavLink>
+                    </div>
+                    <div className="wallet">
+                      <NavLink to="/ewallet">
+                        <FolderOpenIcon style={{ marginRight: "10px" }} />{" "}
+                        eWallet
+                      </NavLink>
+                    </div>
+                    <div className="links">
+                      <NavLink to="/affiliate">
+                        <PeopleOutlineIcon style={{ marginRight: "10px" }} />{" "}
+                        Affiliate Links
+                      </NavLink>
+                    </div>
+                    <div className="leads">
+                      <NavLink to="/lead">
+                        <FormatListBulletedIcon
+                          style={{ marginRight: "10px" }}
+                        />
+                        Leads
+                      </NavLink>
+                    </div>
+                    <div className="members">
+                      <NavLink to="/members">
+                        <PeopleOutlineIcon style={{ marginRight: "10px" }} />{" "}
+                        Members
+                      </NavLink>
+                    </div>
+                    <div className="reports">
+                      <NavLink to="/reports">
+                        <ArticleOutlinedIcon style={{ marginRight: "10px" }} />{" "}
+                        Reports
+                      </NavLink>
+                    </div>
+                    <div className="rank">
+                      <NavLink to="/rank">
+                        <ShowChartOutlinedIcon
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Rank
+                      </NavLink>
+                    </div>
+                    <div className="leader">
+                      <NavLink to="/leaderboard">
+                        <FormatListBulletedIcon
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        LeaderBoard
+                      </NavLink>
+                    </div>
+                    <div className="commisions">
+                      <NavLink to="/commisions">
+                        <DiamondOutlinedIcon style={{ marginRight: "10px" }} />{" "}
+                        Commissions
+                      </NavLink>
+                    </div>
+                    <div className="stream">
+                      <NavLink to="/stream">
+                        <RampRightIcon style={{ marginRight: "10px" }} /> [PRO]
+                        Streams of Income
+                      </NavLink>
+                    </div>
+                    <div className="traffic">
+                      <NavLink to="/traffic">
+                        <DragHandleIcon style={{ marginRight: "10px" }} /> [PRO]
+                        Get Traffic
+                      </NavLink>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+        {ham && (
+          <div className="home-left2">
+            <div className="start">
+              <NavLink to="/affiliateindians">
+                <WebIcon style={{ marginRight: "10px" }} /> Start Here
+              </NavLink>
+            </div>
+            <div className="wallet">
+              <NavLink to="/ewallet">
+                <FolderOpenIcon style={{ marginRight: "10px" }} /> eWallet
+              </NavLink>
+            </div>
+            <div className="links">
+              <NavLink to="/affiliate">
+                <PeopleOutlineIcon style={{ marginRight: "10px" }} /> Affiliate
+                Links
+              </NavLink>
+            </div>
+            <div className="leads">
+              <NavLink to="/lead">
+                <FormatListBulletedIcon style={{ marginRight: "10px" }} />
+                Leads
+              </NavLink>
+            </div>
+            <div className="members">
+              <NavLink to="/members">
+                <PeopleOutlineIcon style={{ marginRight: "10px" }} /> Members
+              </NavLink>
+            </div>
+            <div className="reports">
+              <NavLink to="/reports">
+                <ArticleOutlinedIcon style={{ marginRight: "10px" }} /> Reports
+              </NavLink>
+            </div>
+            <div className="rank">
+              <NavLink to="/rank">
+                <ShowChartOutlinedIcon style={{ marginRight: "10px" }} /> Rank
+              </NavLink>
+            </div>
+            <div className="leader">
+              <NavLink to="/leaderboard">
+                <FormatListBulletedIcon style={{ marginRight: "10px" }} />{" "}
+                LeaderBoard
+              </NavLink>
+            </div>
+            <div className="commisions">
+              <NavLink to="/commisions">
+                <DiamondOutlinedIcon style={{ marginRight: "10px" }} />{" "}
+                Commissions
+              </NavLink>
+            </div>
+            <div className="stream">
+              <NavLink to="/stream">
+                <RampRightIcon style={{ marginRight: "10px" }} /> [PRO] Streams
+                of Income
+              </NavLink>
+            </div>
+            <div className="traffic">
+              <NavLink to="/traffic">
+                <DragHandleIcon style={{ marginRight: "10px" }} /> [PRO] Get
+                Traffic
+              </NavLink>
+            </div>
           </div>
         )}
-      </div>
-      {ham && (
-        <div className="home-left2">
-          <div className="start">
-            <NavLink to="/">
-              <WebIcon style={{ marginRight: "10px" }} /> Start Here
-            </NavLink>
-          </div>
-          <div className="wallet">
-            <NavLink to="/ewallet">
-              <FolderOpenIcon style={{ marginRight: "10px" }} /> eWallet
-            </NavLink>
-          </div>
-          <div className="links">
-            <NavLink to="/affiliate">
-              <PeopleOutlineIcon style={{ marginRight: "10px" }} /> Affiliate
-              Links
-            </NavLink>
-          </div>
-          <div className="leads">
-            <NavLink to="/lead">
-              <FormatListBulletedIcon style={{ marginRight: "10px" }} />
-              Leads
-            </NavLink>
-          </div>
-          <div className="members">
-            <NavLink to="/members">
-              <PeopleOutlineIcon style={{ marginRight: "10px" }} /> Members
-            </NavLink>
-          </div>
-          <div className="reports">
-            <NavLink to="/reports">
-              <ArticleOutlinedIcon style={{ marginRight: "10px" }} /> Reports
-            </NavLink>
-          </div>
-          <div className="rank">
-            <NavLink to="/rank">
-              <ShowChartOutlinedIcon style={{ marginRight: "10px" }} /> Rank
-            </NavLink>
-          </div>
-          <div className="leader">
-            <NavLink to="/leaderboard">
-              <FormatListBulletedIcon style={{ marginRight: "10px" }} />{" "}
-              LeaderBoard
-            </NavLink>
-          </div>
-          <div className="commisions">
-            <NavLink to="/commisions">
-              <DiamondOutlinedIcon style={{ marginRight: "10px" }} />{" "}
-              Commissions
-            </NavLink>
-          </div>
-          <div className="stream">
-            <NavLink to="/stream">
-              <RampRightIcon style={{ marginRight: "10px" }} /> [PRO] Streams
-              of Income
-            </NavLink>
-          </div>
-          <div className="traffic">
-            <NavLink to="/traffic">
-              <DragHandleIcon style={{ marginRight: "10px" }} /> [PRO] Get
-              Traffic
-            </NavLink>
-          </div>
-        </div>
-      )}
         {/* sidebar */}
         {matches ? (
           <div>
@@ -558,8 +558,8 @@ function Traffic() {
                   <div className="traffic-right-block2">
                     <div className="traffic-right-block2-header">
                       Get Traffic
-                     </div>
-                     <div className="traffic-right-block2-body">
+                    </div>
+                    <div className="traffic-right-block2-body">
                       <div className="traffic-right-block2-body1">1</div>
                       <div className="traffic-right-block2-body2">UDIMI</div>
                       <div className="traffic-right-block2-body3">

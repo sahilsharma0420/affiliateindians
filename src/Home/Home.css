@@ -59,12 +59,14 @@ padding-left: 10%;
 
     background-image: url(https://affiliateindians.com/ai/members/assets/banner_bg/background.jpg);
 }
+
 .stream1,.traffic1,.commisions1,.leader1,.rank1,.reports1,.members1,.leads1,.links1,.wallet1,.start1{
     height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-direction: row;
 }
 .stream1 a,.traffic1 a,.commisions1 a,.leader1 a,.rank1 a,.reports1 a,.members1 a,.leads1 a,.links1 a,.wallet1 a,.start1 a{
     color: #fff;
@@ -82,16 +84,7 @@ padding-left: 10%;
         color: #DCB52C;
     
     }
-    .home-left1 .start1:hover{
-     color: #fff;
-     background-color: rgb(60, 69, 86);
-     width: cal(190+70) !important;
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
 
-     
-    }
     .start1{
         margin-top: 55%;
       
