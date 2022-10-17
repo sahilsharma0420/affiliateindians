@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/affiliateindians/static/css/main.864791a1.css",
+    "main.js": "/affiliateindians/static/js/main.14a565a6.js",
+    "index.html": "/affiliateindians/index.html",
+    "main.864791a1.css.map": "/affiliateindians/static/css/main.864791a1.css.map",
+    "main.14a565a6.js.map": "/affiliateindians/static/js/main.14a565a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.864791a1.css",
+    "static/js/main.14a565a6.js"
+  ]
+}
