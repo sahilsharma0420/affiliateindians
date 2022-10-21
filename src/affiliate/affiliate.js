@@ -797,7 +797,7 @@ function Affiliate() {
                         Welcome to Affiliate Indians
                       </p>
                       <p style={{ fontSize: "18px", color: "#fff" }}>
-                        Complete the assignment below and get Your Rankings
+                        <center>Complete the assignment below and get Your Rankings</center>
                       </p>
                     </div>
                   </div>
@@ -1018,7 +1018,7 @@ function Affiliate() {
                         Welcome to Affiliate Indians
                       </p>
                       <p style={{ fontSize: "18px", color: "#fff" }}>
-                        Complete the assignment below and get Your Rankings
+                      <center>Complete the assignment below and get Your Rankings</center>
                       </p>
                     </div>
                   </div>
