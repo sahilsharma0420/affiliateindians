@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/%3Chttp://sahilsharma0420.github.io/affiliateindians%3E/static/css/main.74ccd6da.css",
-    "main.js": "/%3Chttp://sahilsharma0420.github.io/affiliateindians%3E/static/js/main.7eb9d8f5.js",
+    "main.js": "/%3Chttp://sahilsharma0420.github.io/affiliateindians%3E/static/js/main.dc43e6b2.js",
     "index.html": "/%3Chttp://sahilsharma0420.github.io/affiliateindians%3E/index.html",
     "main.74ccd6da.css.map": "/%3Chttp://sahilsharma0420.github.io/affiliateindians%3E/static/css/main.74ccd6da.css.map",
-    "main.7eb9d8f5.js.map": "/%3Chttp://sahilsharma0420.github.io/affiliateindians%3E/static/js/main.7eb9d8f5.js.map"
+    "main.dc43e6b2.js.map": "/%3Chttp://sahilsharma0420.github.io/affiliateindians%3E/static/js/main.dc43e6b2.js.map"
   },
   "entrypoints": [
     "static/css/main.74ccd6da.css",
-    "static/js/main.7eb9d8f5.js"
+    "static/js/main.dc43e6b2.js"
   ]
 }
