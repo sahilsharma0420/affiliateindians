@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route  } from "react-router-dom";
+import {HashRouter, Routes, Route  } from "react-router-dom";
 import './App.css';
 import Leads from './leads/leads'
 import Affiliate from './affiliate/affiliate'
@@ -24,7 +24,7 @@ import  Ewallets from "./Admin/Ewallets/Ewallets";
 function App() {
   return (
     <div className="App">
-        <BrowserRouter>
+        <HashRouter>
         
       <Routes>
       <Route path="/affiliateindians" element={<Home/>}/>
@@ -50,7 +50,7 @@ function App() {
       <Route path="/stream" element={<Stream/>}/>
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
