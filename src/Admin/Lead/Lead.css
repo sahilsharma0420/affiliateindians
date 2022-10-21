@@ -1,0 +1,513 @@
+* {
+  margin: 0%;
+  padding: 0%;
+
+  font-family: Rajdhani, sans-serif;
+}
+.home {
+  position: absolute;
+  height: 90h;
+  top: 10vh;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.home-left {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 240px;
+  color: #fff;
+
+  background-image: url(https://affiliateindians.com/ai/members/assets/banner_bg/background.jpg);
+}
+.home-left2 {
+  display: none;
+}
+
+.dashboard,
+.user,
+.leaads,
+.memb,
+.admin-ewallet,
+.logout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding: 15px 20px;
+}
+.dashboard {
+  margin-top: 30px;
+}
+.advisors-inner,
+.schedule-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  
+}
+.advisors-inner1,
+.schedule-inner1 {
+  display: none;
+}
+.view-advisors,
+.add-advisors,
+.schedule-book,
+.schedule-call,
+.my-booking {
+  color: #dcb52c;
+  font-size: 14px;
+  padding: 10px;
+}
+.schedule-book {
+  margin-top: 5px;
+}
+.advisors-outer,
+.schedule-outer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.dashboard:hover .dashboard-text,.dashboard:hover .dashboard-icon,
+.leaads:hover .leaads-text,.leaads:hover .dashboard-icon,
+.user:hover .user-text,.user:hover .dashboard-icon,
+.memb:hover .memb-text,.memb:hover .dashboard-icon,
+.advisors:hover .advisors-text,.advisors:hover .link-icon,.advisors:hover .key-icon,
+.schedule:hover .schedule-text,.schedule:hover .link-icon,.schedule:hover .key-icon1,
+.admin-ewallet:hover .admin-ewallet-text,.admin-ewallet:hover .dashboard-icon,
+.logout:hover .logout-text,.logout:hover .logout-icon{
+    color: #dcb52c;
+}
+.advisors,
+.schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  padding: 15px 20px;
+ 
+}
+.schedule {
+  padding: 15px 20px 15px 6px;
+}
+.dashboard-icon,
+.key-icon,
+.logout-icon {
+  color: #fff;
+  margin-right: 10px;
+}
+.key-icon {
+  margin-left: 90px;
+  cursor: pointer;
+}
+.key-icon1 {
+  margin-left: 18px;
+  cursor: pointer;
+}
+.key-icon-clicked {
+  margin-left: 90px;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.key-icon1-clicked {
+  margin-left: 30px;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.link-icon {
+  color: #fff;
+  margin-right: 10px;
+  transform: rotate(45deg);
+}
+.dashboard-text,
+.user-text,
+.leaads-text,
+.memb-text,
+.advisors-text,
+.admin-ewallet-text,
+.logout-text,
+.schedule-text {
+  color: #fff;
+  font-size: 16px;
+}
+.home-left1 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 70px !important;
+  color: #fff;
+  z-index: 125;
+
+  background-image: url(https://affiliateindians.com/ai/members/assets/banner_bg/background.jpg);
+}
+.dashboard2 {
+  margin-top: 40px;
+}
+.dashboard2,
+.user2,
+.leaads2,
+.memb2,
+.advisor2,
+.schedule2,
+.ewallets2,
+.logout2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+}
+.dashboard2:hover .dashboard2-icon,
+.user2:hover .dashboard2-icon,
+.leaads2:hover .dashboard2-icon,
+.memb2:hover .dashboard2-icon,
+.advisor2:hover .link2-icon,
+.schedule2:hover .link2-icon,
+.ewallets2:hover .dashboard2-icon,
+.logout2:hover .logout2-icon,
+.dashboard2:hover .dashboard2-content1,
+.user2:hover .user2-content1,
+.leaads2:hover .leaads2-content1,
+.memb2:hover .memb2-content1,
+.ewallets2:hover .ewallets2-content1,
+.logout2:hover .logout2-content1 {
+  color: #dcb52c;
+}
+
+.dashboard2-content,
+.user2-content,
+.leaads2-content,
+.memb2-content,
+.advisor2-content,
+.schedule2-content,
+.ewallets2-content,
+.logout2-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 16px;
+  padding: 19px;
+  width: 210px;
+}
+.advisor2-content,
+.schedule2-content {
+  padding: 0px;
+}
+.dashboard2-content1,
+.user2-content1,
+.leaads2-content1,
+.memb2-content1,
+.advisor2-content1,
+.advisor2-content2,
+.advisor2-content3,
+.schedule2-content1,
+.schedule2-content2,
+.schedule2-content3,
+.schedule2-content4,
+.ewallets2-content1,
+.logout2-content1 {
+  color: #fff;
+}
+.advisor2-content1,
+.schedule2-content1 {
+  background-color: rgb(60, 69, 86);
+  padding: 19px;
+  color: #dcb52c;
+}
+
+.advisor2-content2,
+.advisor2-content3,
+.schedule2-content2,
+.schedule2-content3,
+.schedule2-content4 {
+  padding: 8px 22px;
+  background-color: #fff;
+  color: #dcb52c;
+}
+.advisor2-content2:hover,
+.advisor2-content3:hover,
+.schedule2-content2:hover,
+.schedule2-content3:hover,
+.schedule2-content4:hover {
+  color: rgb(60, 69, 86);
+}
+.dashboard2:hover,
+.user2:hover,
+.leaads2:hover,
+.memb2:hover,
+.advisor2:hover,
+.schedule2:hover,
+.ewallets2:hover,
+.logout2:hover {
+  background-color: rgb(60, 69, 86);
+}
+.dashboard2-icon,
+.link2-icon,
+.logout2-icon {
+  color: #fff;
+}
+.link2-icon {
+  transform: rotate(45deg);
+}
+.dashboard2:hover .dashboard2-content,
+.user2:hover .user2-content,
+.leaads2:hover .leaads2-content,
+.memb2:hover .memb2-content,
+.ewallets2:hover .ewallets2-content,
+.logout2:hover .logout2-content {
+  display: block;
+  left: 70px;
+  top: 0px;
+  background-color: rgb(60, 69, 86);
+}
+.advisor2:hover .advisor2-content,
+.schedule2:hover .schedule2-content {
+  display: block;
+  left: 70px;
+  top: 0px;
+  background-color: #fff;
+}
+
+.header-heading {
+  color: #000;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.Lead-home-right {
+  position: absolute;
+  left: 240px;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  width: calc(100% - 240px);
+  background-color: #f5f4f7;
+  max-height: 100%;
+}
+.Lead-home-right1 {
+  position: absolute;
+  left: 70px;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  width: calc(100% - 70px);
+
+  background-color: #f5f4f7;
+  max-height: 100%;
+}
+.copyright {
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background-color: #f5f4f7;
+  font-size: 16px;
+  margin-top: auto;
+}
+.Lead-right-block-container {
+  background-color: #f5f4f7;
+  padding: 25px;
+}
+.right-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-between;
+  padding: 15px 0px;
+  background-color: #fff;
+}
+.Lead-right-block-header {
+  font-size: 28px;
+  color: #fff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-width: 1805px;
+}
+.sidewords {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Lead-right-block {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+
+  border: 1px solid black;
+  white-space: nowrap;
+  overflow-x: scroll;
+  background-color: #fff;
+}
+.Lead1,
+.Lead2,
+.Lead3,
+.Lead4,
+.Lead5,
+.Lead6,
+.Lead7,
+.Lead8,
+.Lead9,
+.Lead10,
+.Lead11,
+.Lead12,
+.Lead13,
+.Lead14,
+.Lead15 {
+  display: flex;
+  flex-direction: row;
+  min-width: 1805px;
+}
+.Lead-right-block-header1,
+.Lead-right-block-header2,
+.Lead-right-block-header3,
+.Lead-right-block-header4,
+.Lead-right-block-header5,
+.Lead-right-block-header6,
+.Lead-right-block-header7 {
+  background-image: url(https://affiliateindians.com/ai/members/assets/banner_bg/background.jpg);
+  text-align: center;
+  border-left: 1px solid #fff;
+}
+.Lead-right-block-header1 {
+  border: none;
+}
+.Lead-count,
+.Lead-date,
+.Lead-email,
+.Lead-funnel,
+.Lead-phone,
+.Lead-name,
+.Lead-training,
+.Lead-tag {
+  border: 1px solid #bdbcbf;
+}
+
+.Lead-count,
+.Lead-right-block-header1 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 62px;
+}
+.Lead-date,
+.Lead-right-block-header2 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 103px;
+  overflow-wrap: break-word;
+
+  white-space: initial;
+}
+.Lead-funnel,
+.Lead-right-block-header3 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 86px;
+}
+
+.Lead-tag,
+.Lead-right-block-header4 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 790px;
+}
+.Lead-name,
+.Lead-right-block-header5 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 226px;
+}
+.Lead-email,
+.Lead-right-block-header6 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 302px;
+}
+.Lead-phone,
+.Lead-right-block-header7 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 236px;
+}
+
+@media (max-width: 1030px) {
+  .sidebar-container2 {
+    display: flex;
+  }
+  .sidebar-container1 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .home-left {
+    display: none;
+  }
+  .home-left1 {
+    display: none;
+  }
+  .Lead-home-right {
+    width: 100%;
+    left: 0;
+  }
+  .Lead-home-right1 {
+    width: 100%;
+    left: 0;
+  }
+  .home-left2 {
+    z-index: 1515165;
+    top: 10vh;
+    left: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 240px;
+    color: #fff;
+
+    background-image: url(https://affiliateindians.com/ai/members/assets/banner_bg/background.jpg);
+  }
+  .sidewords {
+    display: none;
+  }
+}

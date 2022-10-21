@@ -11,6 +11,16 @@ import  Reports from "./reports/reports"
 import  Traffic from "./traffic/traffic"
 import  Stream from "./streams/streams"
 import  LeaderBoard from "./leaderboard/leaderboard"
+import  Dashboard from "./Admin/Dashboard/Dashboard";
+import  Registeredusers from "./Admin/Registeredusers/Registeredusers";
+import  Lead from "./Admin/Lead/Lead";
+import  Member from "./Admin/Members/Members";
+import  Addadvisor from "./Admin/Addadvisor/Addadvisor";
+import  Viewadvisor from "./Admin/Viewadvisor/Viewadvisor";
+import  Schedulebooking from "./Admin/Schedulebooking/Schedulebooking";
+import  Schedulecalls from "./Admin/Schedulecalls/Schedulecalls";
+import  Mybooking from "./Admin/Mybooking/Mybooking";
+import  Ewallets from "./Admin/Ewallets/Ewallets";
 function App() {
   return (
     <div className="App">
@@ -19,6 +29,16 @@ function App() {
       <Routes>
       <Route path="/affiliateindians" element={<Home/>}/>
       <Route path="/lead" element={<Leads/>}/>
+      <Route path="/Dashboard" element={<Dashboard/>}/>
+      <Route path="/Viewadvisor" element={<Viewadvisor/>}/>
+      <Route path="/Registeredusers" element={<Registeredusers/>}/>
+      <Route path="/Leads" element={<Lead/>}/>
+      <Route path="/Member" element={<Member/>}/>
+      <Route path="/Addadvisor" element={<Addadvisor/>}/>
+      <Route path="/Schedulebooking" element={<Schedulebooking/>}/>
+      <Route path="/Schedulecalls" element={<Schedulecalls/>}/>
+      <Route path="/Mybooking" element={<Mybooking/>}/>
+      <Route path="/Ewallets" element={<Ewallets/>}/>
       <Route path="/affiliate" element={<Affiliate/>}/>
       <Route path="/commisions" element={<Commision/>}/>
       <Route path="/ewallet" element={<Ewallet/>}/>

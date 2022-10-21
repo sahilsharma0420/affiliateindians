@@ -136,77 +136,118 @@
 .members1,
 .leads1,
 .links1,
-.wallet1,
+.ewallet1,
 .start1 {
-  height: 55px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+
+  padding: 11px;
 }
-.stream1 a,
-.traffic1 a,
-.commisions1 a,
-.leader1 a,
-.rank1 a,
-.reports1 a,
-.members1 a,
-.leads1 a,
-.links1 a,
-.wallet1 a,
-.start1 a {
-  color: #fff;
+.start1:hover .start1-icon,
+.ewallet1:hover .ewallet1-icon,
+.links1:hover .links1-icon,
+.leads1:hover .leads1-icon,
+.members1:hover .members1-icon,
+.reports1:hover .reports1-icon,
+.rank1:hover .rank1-icon,
+.leader1:hover .leader1-icon,
+.commisions1:hover .commisions1-icon,
+.stream1:hover .stream1-icon,
+.traffic1:hover .traffic1-icon {
+  color: #dcb52c;
+}
+.start1-content,
+.links1-content,
+.leader1-content,
+.rank1-content,
+.reports1-content,
+.traffic1-content,
+.stream1-content,
+.commisions1-content,
+.leads1-content,
+.members1-content,
+.ewallet1-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
   font-size: 16px;
+  padding: 15px;
+  width: 210px;
 }
-.stream1:active,
-.traffic1:active,
-.commisions1:active,
-.leader1:active,
-.rank1:active,
-.reports1:active,
-.members1:active,
-.leads1:active,
-.links1:active,
-.wallet1:active,
-.start1:active,
-.stream1:active,
-.traffic1:active,
-.commisions1:active,
-.leader1:active,
-.rank1:active,
-.reports1:active,
-.members1:active,
-.leads1:active,
-.links1:active,
-.wallet1:active,
-.start1:active {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #dcb52c;
-  border-right: 2px solid #fff;
+.start1-content1,
+.leads1-content1,
+.links1-content1,
+.ewallet1-content1,
+.members1-content1,
+.traffic1-content1,
+.stream1-content1,
+.reports1-content1,
+.rank1-content1,
+.commisions1-content1,
+.leader1-content1 {
+  color: #fff;
+  width: 230px;
 }
-.stream1 a:hover,
-.traffic1 a:hover,
-.commisions1 a:hover,
-.leader1 a:hover,
-.rank1 a:hover,
-.reports1 a:hover,
-.members1 a:hover,
-.leads1 a:hover,
-.links1 a:hover,
-.wallet1 a:hover,
-.start1 a:hover,
-.stream1 a:hover,
-.traffic1 a:hover,
-.commisions1 a:hover,
-.leader1 a:hover,
-.rank1 a:hover,
-.reports1 a:hover,
-.members1 a:hover,
-.leads1 a:hover,
-.links1 a:hover,
-.wallet1 a:hover,
-.start1 a:hover {
+.start1-icon,
+.ewallet1-icon,
+.links1-icon,
+.leads1-icon,
+.members1-icon,
+.reports1-icon,
+.rank1-icon,
+.leader1-icon,
+.commisions1-icon,
+.stream1-icon,
+.traffic1-icon {
+  color: #fff;
+}
+.stream1:hover .stream1-content,
+.traffic1:hover .traffic1-content,
+.commisions1:hover .commisions1-content,
+.leader1:hover .leader1-content,
+.rank1:hover .rank1-content,
+.reports1:hover .reports1-content,
+.members1:hover .members1-content,
+.leads1:hover .leads1-content,
+.links1:hover .links1-content,
+.ewallet1:hover .ewallet1-content,
+.start1:hover .start1-content {
+  display: block;
+  left: 70px;
+  top: 0px;
+  background-color: rgb(60, 69, 86);
+}
+.stream1:hover .stream1-content1,
+.traffic1:hover .traffic1-content1,
+.commisions1:hover .commisions1-content1,
+.leader1:hover .leader1-content1,
+.rank1:hover .rank1-content1,
+.reports1:hover .reports1-content1,
+.members1:hover .members1-content1,
+.leads1:hover .leads1-content1,
+.links1:hover .links1-content1,
+.ewallet1:hover .ewallet1-content1,
+.start1:hover .start1-content1 {
   color: #dcb52c;
+}
+
+.stream1:hover,
+.traffic1:hover,
+.commisions1:hover,
+.leader1:hover,
+.rank1:hover,
+.reports1:hover,
+.members1:hover,
+.leads1:hover,
+.links1:hover,
+.ewallet1:hover,
+.start1:hover {
+  background-color: rgb(60, 69, 86);
 }
 
 .start1 {
