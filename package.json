@@ -2,7 +2,7 @@
   "name": "affiliateindians",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/<http://sahilsharma0420.github.io/affiliateindians>/#",
+  "homepage": "http://sahilsharma0420.github.io/affiliateindians",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
